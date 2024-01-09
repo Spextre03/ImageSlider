@@ -36,6 +36,5 @@ const moveSlides = (direction) => {
   }
 
   carouselContainer[index].classList.add('main');
-  console.log(index);
-  console.log(totalSlides);
+  console.log(index); 
 };

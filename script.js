@@ -37,5 +37,5 @@ const moveSlides = (direction) => {
 
   carouselContainer[index].classList.add('main');
   console.log(index);
-  setInterval(moveSlides("next"), 1000);
+  console.log(totalSlides);
 };
